@@ -27,7 +27,7 @@ main {
     position: relative;
 }
 .card .card-img-top img {
-    margin-bottom: -4px;
+    margin-bottom: -5px;
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -49,12 +49,12 @@ main {
     padding: 40px 38px;
     color: #fff;
 }
-.card .card-body h2 {
+.card .card-body h1 {
     padding: 0 10px;
     margin-bottom: 20px;
     font-weight: 700;
 }
-.card .card-body h2 span {
+.card .card-body h1 span {
     color: #aa5cdb;
 }
 .card .card-body p {
@@ -124,6 +124,9 @@ main {
     .card .card-body {
         width: 50%;
         padding: 55px 70px;
+    }
+    .card .card-body h1 {
+        padding: 0;
     }
 
     .data-box {
